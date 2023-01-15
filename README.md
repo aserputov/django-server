@@ -1,3 +1,3 @@
 # django-server
 
-Webserver.
+Webserver with sqlite. Deployed with PostgreSQL.
