@@ -1,0 +1,10 @@
+{% extends "master.html" %} {% block title %} Details about {{ blog.firstname }}
+{{ blog.lastname }} {% endblock %} {% block content %} {% for x in blog %}
+
+<h1>Hello {{ x.firstname }} {{ x.lastname }}</h1>
+
+<p>Phone {{ x.firstname }}</p>
+<p>Member since: {{ blog.joined_date }}</p>
+
+<p>Back to <a href="/blog">Members</a></p>
+{% endfor %} {% endblock %}
